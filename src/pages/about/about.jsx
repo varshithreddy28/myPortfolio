@@ -13,7 +13,7 @@ export const About = ({ theme }) => {
   return (
     <div className="aboutPage " id="skills">
       <div className="container" id="about">
-        <div className="">
+        <div className="aboutData">
           <div className="aboutHeader">
             <h1 style={{ color: "#f7f7f7" }}>My Skills : </h1>
           </div>

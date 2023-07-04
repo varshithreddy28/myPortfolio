@@ -70,7 +70,13 @@ export default function Home(props) {
               >
                 Hire Me
               </Link>
-              <a href={Resume} download>
+              {/* <a href={Resume} download>
+                <button id="getresume">Get Resume</button>
+              </a> */}
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1Oundlv80hFwtC6QBS4U5CT5d2VNjEbRw/view?usp=sharing"
+              >
                 <button id="getresume">Get Resume</button>
               </a>
             </div>

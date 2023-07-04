@@ -23,6 +23,7 @@ svg.abouticons {
   font-size: 2.8em;
   gap: 20px;
   color: var(--textcolor3);
+  font-size: 2.2em;
 }
 .skills {
   font-size: 1.5em;
@@ -34,12 +35,18 @@ div#about {
   align-items: center;
   height: -webkit-fill-available;
   /* gap: 1; */
+  width: 100%;
 }
 .aboutImg {
-  width: 100%;
+  width: 50%;
 }
 .aboutImg img {
   float: right;
+  height: 25%;
+  width: 100%;
+}
+.aboutData {
+  width: 58%;
 }
 @media only screen and (max-width: 1300px) {
   .aboutImg img {
@@ -82,16 +89,10 @@ div#about {
     margin-bottom: 24px;
   }
 }
-@media only screen and (max-width: 500px) {
-  .aboutHeader h1 {
-    font-size: 2.5em;
-    font-weight: 400;
-  }
-  .skilltype {
-    font-size: 2.2em;
-  }
+@media only screen and (max-width: 800px) {
   .skills {
-    font-size: 1.2em;
+    font-size: 1em;
+    margin-bottom: 0.5em;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -104,5 +105,9 @@ div#about {
   }
   .skills {
     font-size: 1em;
+    margin-bottom: 0.5em;
+  }
+  .aboutData {
+    width: 100%;
   }
 }
