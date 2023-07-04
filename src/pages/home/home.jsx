@@ -76,6 +76,7 @@ export default function Home(props) {
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1Oundlv80hFwtC6QBS4U5CT5d2VNjEbRw/view?usp=sharing"
+                rel="noreferrer"
               >
                 <button id="getresume">Get Resume</button>
               </a>
