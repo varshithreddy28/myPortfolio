@@ -49,7 +49,7 @@ export default function Home(props) {
               </span>
             </div>
             <div className="myintro">
-              I'm a Full Stack Web developer from Warnagal, India.
+              I'm a Full Stack Web developer from Ontario, Canada.
             </div>
 
             <div className="imake">
