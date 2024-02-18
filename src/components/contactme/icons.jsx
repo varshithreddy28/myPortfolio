@@ -31,7 +31,7 @@ export default function Icons({ theme, setTheme }) {
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/varshith-reddy-3967131bb/"
+            href="https://www.linkedin.com/in/varshith-reddy-bobbili-3967131bb/"
           >
             <img
               src={theme ? LinkedIn : LinkedInDark}
