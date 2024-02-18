@@ -17,6 +17,7 @@ import {
 // Images
 import Weather from "../../assets/weatheranalyzer.webp";
 import ElectroStore from "../../assets/electrostore.webp";
+import Triyas from "../../assets/Triyas.webp";
 export default function Projects(props) {
   const { theme, setTheme } = props;
 
@@ -25,6 +26,10 @@ export default function Projects(props) {
 
   const project2Discription =
     "It's an eCommerce Store that allows users to purchase the products with their Debit/Credit card. In this Admin can add, edit, delete the products. In this application Authentication and Authorization are implemented.";
+
+  const project3Discription =
+    "Created a responsive website using React and ReduxJs for a Client specializing in PTC and Altair products. The site offers an intuitive user interface and dynamic features, ensuring seamless functionality across devices. ";
+
 
   const projects = useMemo(() => {
     return [
@@ -68,6 +73,20 @@ export default function Projects(props) {
         image: ElectroStore,
         alt: "Electro Store Ecommers",
         rotate: true,
+      }, {
+        id: 3,
+        title: "Triyas",
+        discription: project3Discription,
+        demourl: "https://www.triyas.com/",
+        code: ["https://github.com/varshithreddy28/Triyas/tree/Test"],
+        icons: [
+          <SiBootstrap className="techIcons" />,
+          <SiRedux className="techIcons" />,
+          <SiReact className="techIcons" />,
+        ],
+        image: Triyas,
+        alt: "Triyas Website",
+        rotate: false,
       },
     ];
   }, []);

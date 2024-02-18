@@ -27,7 +27,7 @@ export const About = ({ theme }) => {
               <MdDesignServices />
               <span>Front End :</span>
             </div>
-            <div className="skills">Html5 Css BootStrap ReactJs Redux</div>
+            <div className="skills">Html5, CSS, BootStrap, ReactJs, Redux, React Native</div>
           </div>
           <div
             data-aos="zoom-in-right"
@@ -39,7 +39,7 @@ export const About = ({ theme }) => {
               <FaServer />
               <span>Back End : </span>
             </div>
-            <div className="skills">NodeJs ExpressJs MongoDb </div>
+            <div className="skills">NodeJs, ExpressJs, MongoDb </div>
           </div>
           <div
             data-aos="zoom-in-right"
@@ -51,7 +51,7 @@ export const About = ({ theme }) => {
               <AiFillCode />
               <span>Languages : </span>
             </div>
-            <div className="skills">C JavaScript Python Java</div>
+            <div className="skills">C, JavaScript, Python, C++</div>
           </div>
           <div
             data-aos="zoom-in-right"
@@ -63,7 +63,7 @@ export const About = ({ theme }) => {
               <MdDesignServices />
               <span>Dev Tools : </span>
             </div>
-            <div className="skills">Git Postman Stripe Netlify Heroku</div>
+            <div className="skills">Git, Postman, Stripe, Netlify, Heroku</div>
           </div>
           <div
             data-aos="zoom-in-right"
@@ -75,7 +75,7 @@ export const About = ({ theme }) => {
               <MdFavorite />
               <span>Intrests : </span>
             </div>
-            <div className="skills">Fullstackdev Mobile Dev</div>
+            <div className="skills">Fullstackdev, Mobile Dev</div>
           </div>
         </div>
         <div className="aboutImg">
